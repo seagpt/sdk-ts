@@ -2,6 +2,59 @@
 
 [![NPM version](<https://img.shields.io/npm/v/supermemory.svg?label=npm%20(stable)>)](https://npmjs.org/package/supermemory) ![npm bundle size](https://img.shields.io/bundlephobia/minzip/supermemory)
 
+
+<!-- README-ROAST:START -->
+
+## README Roast Pass
+
+Roasted with [https://github.com/hidai25/readme-roast](https://github.com/hidai25/readme-roast) on 2026-06-25. This block is evidence-only: repo metadata, root files, and the existing README were scanned before writing.
+
+### Fast roast
+
+- Pre-pass README score: **100/100** by the readme-roast categories: first impression, install friction, trust, visuals, and structure.
+- README already had the basics; this pass adds a visual map and sharper operator scan.
+- Biggest fix in this pass: added a Mermaid repo map plus a quick operator scan without deleting the existing README content.
+
+### Mermaid repository map
+
+```mermaid
+flowchart TD
+  R["seagpt/sdk-ts"]
+  R --> N1["package.json"]
+  R --> N2["package-lock.json"]
+  R --> N3["yarn.lock"]
+  R --> N4["README.md"]
+  R --> N5["src/"]
+  R --> N6["packages/"]
+  R --> N7["scripts/"]
+  R --> N8["bin/"]
+  R --> N9["examples/"]
+  R --> N10["tests/"]
+  R --> N11["api.md"]
+  R --> N12["Brewfile"]
+  R --> MORE["additional repo files"]
+```
+
+### Operator quick scan
+
+| Signal | Evidence |
+|---|---|
+| GitHub repo | [seagpt/sdk-ts](https://github.com/seagpt/sdk-ts) |
+| Description | No GitHub description set. |
+| Default branch | `main` |
+| Primary languages | JavaScript 73%, TypeScript 27%, Shell 0%, Dockerfile 0%, Ruby 0% |
+| Install path | `yarn install` |
+| Run/build hint | `yarn run build` (./scripts/build) |
+| Key files scanned | package.json, package-lock.json, yarn.lock, README.md, src/, packages/, scripts/ |
+
+### README next upgrades
+
+- Add real screenshots, GIFs, or CLI output once the repo has a stable demo path.
+- Pin exact setup commands after verifying them in a clean environment.
+- Link production/staging/docs only when the URL is durable and intended for readers.
+
+<!-- README-ROAST:END -->
+
 This library provides convenient access to the Supermemory REST API from server-side TypeScript or JavaScript.
 
 The REST API documentation can be found on [docs.supermemory.ai](https://docs.supermemory.ai). The full API of this library can be found in [api.md](api.md).
